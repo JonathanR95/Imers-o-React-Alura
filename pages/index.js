@@ -51,9 +51,10 @@ const StyledHeader = styled.div`
     }
   `;
   const StyledBanner = styled.div`
-    background-color:blue ;
     background-image: url(${config.bg});
-    height: 230px;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 500px;
   `;
 function Header() {
     return (
