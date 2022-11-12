@@ -43,7 +43,7 @@ export default function Search({valorDoFiltro,setValorDoFiltro  }){
     return(
         <StyledSearch>
             <input type="text" onChange={(e)=>{
-                console.log("Digitou algo!")
+                // console.log("Digitou algo!")
                 setValorDaBusca(e.target.value)
             }}value= {valorDaBusca}/>
             <button>
